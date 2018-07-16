@@ -1,12 +1,8 @@
 [alias]
 	plog = log --color --graph --decorate --oneline --all
 	pushf = push --force-with-lease
-[user]
-	email = rex@playstudios.asia
-	name = Rex Ng
 [core]
-	autocrlf = false
-        eol = crlf
+	autocrlf = true
 	editor = vim
 [credential]
 	helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe
